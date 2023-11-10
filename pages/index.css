@@ -106,9 +106,6 @@
   margin: 0;
 }
 
-.content {
-}
-
 .recipes {
   padding: 100px 80px 215px;
   background-color: #0a2750;
@@ -159,17 +156,95 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  margin-top:24px;
+  margin-top: 24px;
   margin-bottom: 0;
 }
 .reservations {
+  padding: 100px 0 120px;
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.menu {
+.reservation__title {
+  margin: 0 auto 80px;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
-.about {
+.reservation__form {
+  margin: 0 auto;
 }
 
-.footer {
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+.form__input {
+  display: block;
+  height: 60px;
+  width: 100%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  max-height: 60px;
+}
+
+.form__input::placeholder {
+  right: 100px;
+  font-size: 16px;
+  color: #8b8b8b;
+}
+
+.form__button {
+  background-color: #2f80ed;
+  height: 60px;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 32px;
+  border-radius: 4px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  border-radius: 2px;
 }
