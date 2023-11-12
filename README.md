@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Extra styling and animations could be used to enhance user experience. Implement more styles specfically in the recipes section with the videos included to look more pleasing.
